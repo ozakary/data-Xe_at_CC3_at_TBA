@@ -34,10 +34,6 @@ CC3 POCs in 4-(trifluoromethoxy)benzyl alcohol (TBA) solvent loaded with high Xe
   - Coupling strength: 5 × 10<sup>12</sup> Hz
 - **Restart frequency**: Every 10 steps
 
-### Initial Conditions
-- **Velocities**: Maxwell-Boltzmann distribution at 300 K (provided in input)
-- **Starting geometry**: Optimized host-guest configuration
-
 ## Input Files
 
 - `dftb_in.hsd`: Main DFTB+ input file containing geometry, MD parameters, and method settings

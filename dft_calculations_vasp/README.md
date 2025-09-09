@@ -1,6 +1,12 @@
 # Single-Point DFT Calculations
 
-
+---
+📄 Author: **Ouail Zakary**  
+- 📧 Email: [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
+- 🔗 ORCID: [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
+- 🌐 Website: [Personal Webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)  
+- 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
+---
 
 This directory contains the input files and job script for performing single-point DFT calculations using VASP.
 
@@ -80,3 +86,7 @@ The calculations generate standard VASP output files in each `OUT-{iter}` direct
 
 - **Supercomputer**: Mahti supercomputer at CSC - IT Center for Science (Finland), more details: [www.csc.fi](https://www.csc.fi)
 - **VASP**: Version with DFT-D4 support (vasp_std_dftd4)
+
+---
+
+For further details, please refer to the respective folders or contact the author via the provided email.

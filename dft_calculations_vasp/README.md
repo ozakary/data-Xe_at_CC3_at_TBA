@@ -37,6 +37,7 @@ This directory contains the input files and job script for performing single-poi
 ## Directory Structure
 
 ```
+./all_PBE_DFT.job
 ./vasp_folders_2Xe_CC3_TBA/
 ├── DFT-NMR_iter-0/
 │   ├── IN/
@@ -69,8 +70,8 @@ The job script processes configurations in batches with increment of 60:
 - [`POSCAR`](./POSCAR): Atomic coordinates for each configuration
 
 ### Generated Files
-- [`all_0-4620_PBE_DFT.job`](./all_0-4620_PBE_DFT.job): SLURM batch job script
-- Individual POSCAR files for each snapshot
+- [`all_PBE_DFT.job`](./all_PBE_DFT.job): SLURM batch job script
+- Individual [`POSCAR`](./POSCAR) files for each snapshot
 
 ## Output Files
 

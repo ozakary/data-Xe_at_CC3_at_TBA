@@ -1,0 +1,46 @@
+#!/bin/bash -l
+
+################### VASP Job Batch Script (O. Zakary, 2022) ###################
+# SLURM-section
+#SBATCH --job-name=2Xe_CC3_TBA
+#SBATCH --partition=medium
+#SBATCH --account=plantto # !!it is mandatory to specify the account (project) as precised in the CSC rules!!
+#SBATCH --nodes=16
+#SBATCH --tasks-per-node=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=0-36:00:00
+#SBATCH --output=dft-output_%j.txt
+#SBATCH --error=dft-errors_%j.txt
+#############################################################################
+
+# Section for defining job variables and settings:
+
+# Load necessary modules (if needed)
+ulimit -s unlimited
+
+module load vasp
+
+export folders=/scratch/plantto/zakaryou/VASP/ML-database/2Xe_CC3_TBA/vasp_folders_2Xe_CC3_TBA
+
+proj_base="DFT-NMR_iter-"
+increment=60
+total_iterations=13740
+
+# Loop over iterations
+for ((iter=0; iter<=total_iterations; iter+=increment)); do
+    echo "#############################################################################"
+    echo "############################< iter: ${iter} >##################################"
+    echo "#############################################################################"
+    cd $folders
+    proj="${proj_base}${iter}"
+    input=$(ls ${proj}/IN/{INCAR,KPOINTS,POTCAR,POSCAR}) # Input files from job folder
+    mkdir $proj/OUT-${iter}
+    cp $input $proj/OUT-${iter}
+    # Running the program:
+    cd $proj/OUT-${iter}
+    srun vasp_std_dftd4
+done
+
+echo "All jobs finished at"
+date
+exit 0

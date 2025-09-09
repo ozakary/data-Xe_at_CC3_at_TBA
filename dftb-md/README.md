@@ -10,13 +10,13 @@
 
 This directory contains the input file for running semi-empirical molecular dynamics (SEMD) with DFTB+ code for Xe@CC3@TBA.
 
-## System Description
+## System description
 CC3 POCs in 4-(trifluoromethoxy)benzyl alcohol (TBA) solvent loaded with high Xe concentration:
 - **1170 atoms**
 - **Atom types**: H, C, N, O, F, Xe
 - **Box size (PBC)**: 23.865 Å × 23.865 Å × 23.865 Å cubic cell
 
-## Simulation Parameters
+## Simulation parameters
 
 ### Method
 - **Hamiltonian**: GFN2-xTB semi-empirical method
@@ -24,7 +24,7 @@ CC3 POCs in 4-(trifluoromethoxy)benzyl alcohol (TBA) solvent loaded with high Xe
   - Fermi-Dirac distribution at 300 K
   - Γ-point only calculation (1×1×1 k-point grid)
 
-### Molecular Dynamics Settings
+### Molecular dynamics settings
 - **Integrator**: Velocity-Verlet algorithm
 - **Time step**: 0.5 fs
 - **Total steps**: 2000 (1.0 ps total simulation time)
@@ -34,15 +34,15 @@ CC3 POCs in 4-(trifluoromethoxy)benzyl alcohol (TBA) solvent loaded with high Xe
   - Coupling strength: 5 × 10<sup>12</sup> Hz
 - **Restart frequency**: Every 10 steps
 
-## Input Files
+## Input files (not included in this directory)
 
 - `dftb_in.hsd`: Main DFTB+ input file containing geometry, MD parameters, and method settings
-- `geometry.gen`: Initial atomic coordinates (included in main input file)
+- `geometry.gen`: Initial atomic coordinates
 - `detailed.out`: Detailed output from DFTB+ simulation
 - `md.out`: MD trajectory file
 - `results.tag`: Results summary file
 
-## Files in This Directory
+## Files in this directory
 
 - [`./dftb_in.hsd`](./dftb_in.hsd): Main DFTB+ input file containing geometry, MD parameters, and method settings
 

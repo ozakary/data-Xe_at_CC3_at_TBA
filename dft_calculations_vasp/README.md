@@ -63,13 +63,13 @@ The job script processes configurations in batches with increment of 60:
 ## Input Files
 
 ### Required Files (provided)
-- `INCAR`: DFT calculation parameters
-- `KPOINTS`: k-point sampling specification
-- `POTCAR`: Pseudopotential data for all elements
-- `POSCAR`: Atomic coordinates for each configuration
+- [`INCAR`](./INCAR): DFT calculation parameters
+- [`KPOINTS`](./KPOINTS): k-point sampling specification
+- [`POTCAR`](./POTCAR): Pseudopotential data for all elements
+- [`POSCAR`](./POSCAR): Atomic coordinates for each configuration
 
 ### Generated Files
-- `all_0-4620_PBE_DFT.job`: SLURM batch job script
+- [`all_0-4620_PBE_DFT.job`](./all_0-4620_PBE_DFT.job): SLURM batch job script
 - Individual POSCAR files for each snapshot
 
 ## Output Files
@@ -80,7 +80,7 @@ The calculations generate standard VASP output files in each `OUT-{iter}` direct
 - `vasprun.xml`: Complete calculation data in XML format
 - `CONTCAR`: Final atomic positions (unchanged for single-point)
 
-**Note**: Output files are available in the Zenodo repository [link to be provided].
+**Note**: Output files are available in the [Zenodo repository](https://github.com/ozakary/data-Xe_at_CC3_at_TBA).
 
 ## Requirements
 

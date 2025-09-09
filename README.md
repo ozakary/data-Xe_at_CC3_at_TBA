@@ -18,7 +18,7 @@ The repository contains the following sections:
 
 1. Code for dataset preparation for MLIP:  
    i. Configuration generation using semi-empirical MD (SEMD) simulations. ([directory](./dftb-md/))  
-   ii. Single-point DFT calculations of the generated SEMD configurations. ([directory](./dft_calculations_vasp/))
+   ii. Single-point DFT calculations of the generated SEMD configurations. ([directory](./dft_calculations_vasp/))  
    iii. Dataset formatting for *Allegro* architecture. ([directory](./dft_dataset/))  
 3. Code for training, validation, and testing of *Allegro* architecture. ([directory](./allegro_achitecture/))  
 4. Code for machine learning MD simulations. ([directory](./mlmd_simulations/))  

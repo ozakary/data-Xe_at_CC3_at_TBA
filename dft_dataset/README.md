@@ -8,7 +8,7 @@
 - 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
 ---
 
-This directory contains the code for converting VASP calculation output file (OUTCAR) into the .xyz format required by the Allegro architecture.
+This directory contains the [code](./extract_vasp_to_xyz.py) for converting VASP calculation output file (OUTCAR) into the .xyz format required by the Allegro architecture.
 
 ## Input Data
 

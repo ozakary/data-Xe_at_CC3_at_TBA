@@ -29,7 +29,7 @@ This directory contains the input files and job scripts for calculating <sup>129
 
 ## TURBOMOLE Configuration
 
-### Input Generation (`define_input`)
+### Input Generation ([`define_input`](./define_input))
 
 #### Relativistic Treatment
 ```
@@ -88,7 +88,7 @@ memory 3500            # MP2 memory (MB, if needed)
     └── cluster_*/            # Individual calculation directories
 ```
 
-### Preparation Workflow (`prepare.sh`)
+### Preparation Workflow ([`prepare.sh`](./prepare.sh))
 
 #### Coordinate Processing
 1. **Source extraction**: Extract configurations from trajectory files
@@ -102,7 +102,7 @@ memory 3500            # MP2 memory (MB, if needed)
 Xe2CC3TBA_getNMolsAroundCentralOne3D.py coord_$i.xyz 20
 ```
 
-### Job Execution (`lumi_tm78.job`)
+### Job Execution ([`lumi_tm78.job`](./lumi_tm78.job))
 
 #### SLURM Configuration
 ```bash
@@ -136,7 +136,29 @@ mpshift > mpshift.out           # NMR shielding calculation
 - **Total configurations**: ~999 snapshots per level of theory
 - **Parallel execution**: Multiple SLURM jobs simultaneously
 
-### Job Submission (`run.sh`)
+### Workflow Management ([`general_run.sh`](./general_run.sh))
+
+```bash
+# Step 1: Generate TURBOMOLE input files
+for d in ./*/ ; do (cd "$d" && define < define_input ); done
+
+# Step 2: Activate calculations  
+for d in ./*/ ; do (cd "$d" && actual -r ); done
+
+# Step 3: Distribute job scripts
+for d in */; do cp -f tm78_puhti.job "$d"; done
+
+# Step 4: Submit all calculations
+for d in ./*/ ; do (cd "$d" && sbatch tm78_puhti.job ); done
+```
+
+#### Workflow Steps Explained
+1. **Input generation**: Runs `define` in each calculation directory to create TURBOMOLE input files
+2. **Calculation activation**: Uses `actual -r` to prepare the calculation environment
+3. **Job script distribution**: Copies the SLURM job script to each directory
+4. **Batch submission**: Submits all jobs to the queue system
+
+### Individual Job Submission ([`run.sh`](./run.sh))
 ```bash
 for i in $(seq -f "%01g" 60801 100 69901); do
     cp -f lumi_tm78.job ./cluster_${i}

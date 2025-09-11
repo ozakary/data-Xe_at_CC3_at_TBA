@@ -27,7 +27,7 @@ The repository contains the following sections:
 7. Code for dataset preparation for the NMR-ML model:  
    i. Configuration generation using SEMD simulations. ([directory](./dftb-md/))  
    ii. DFT calculations of <sup>129</sup>Xe NMR magnetic shielding tensor, ***σ***. ([directory](./dft_calculations_turbomole/))  
-   iii. Dataset formatting for *MatTen* architecture. ([directory](./nmr-ml_dataset/))  
+   iii. Dataset formatting for *MatTen* architecture. ([directory](./nmr_dataset/))  
 8. Code for training, validation, and testing of *MatTen*. ([directory](./matten_architecture/))  
 9. Prediction of <sup>129</sup>Xe ***σ*** from the pre-trained NMR-ML model. ([directory](./nmr-ml_prediction/))  
 10. Python scripts and raw numerical data for all figures in the main manuscript and the supporting information. ([directory](./figures/))  

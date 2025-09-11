@@ -1,0 +1,93 @@
+units metal
+atom_style atomic
+dimension 3
+
+# Set newton on for pair_lj/cut
+newton on
+boundary p p p
+
+# Read initial structure and replicate system
+read_data ./2xe_cc3_tba_str.data
+replicate 2 2 2
+
+# Allegro pair style setup
+pair_style      allegro
+pair_coeff      * * ./2xe_cc3_tba_new-deployed_vf.pth O C H F Xe N
+
+mass 1 15.9994
+mass 2 12.0107
+mass 3 1.00794
+mass 4 18.9984032
+mass 5 131.293
+mass 6 14.0067
+
+# Neighbor list settings
+neighbor 1.0 bin
+neigh_modify delay 5 every 1
+
+# Simulation timestep (1 fs)
+timestep 0.001
+
+
+#===============================================
+# STAGE 1: ENERGY MINIMIZATION
+#===============================================
+
+print "Starting energy minimization..."
+
+thermo 100
+minimize 1.0e-4 1.0e-6 1000 10000
+
+print "Energy minimization completed."
+
+
+#===============================================
+# STAGE 2: EQUILIBRATION (100 ps at 300K)
+#===============================================
+
+print "Starting equilibration run (100 ps at 300K)..."
+
+# Initialize velocities at high temperature (600K)
+velocity all create 300.0 1234567 loop geom
+
+# No velocity reinitialization to maintain temperature continuity
+fix equil_nvt all nvt temp 300 300 $(100*dt)
+
+# Output settings for equilibration
+thermo 100
+thermo_style custom step temp press pe ke etotal vol
+
+dump equil_dump all custom 100 equilibration.dump id type x y z vx vy vz fx fy fz
+restart 10000 equil.restart
+
+# Run equilibration: 100 ps = 100,000 timesteps
+run 100000
+
+# Clean up equilibration phase
+undump equil_dump
+unfix equil_nvt
+
+print "Equilibration completed."
+
+
+#===============================================
+# STAGE 3: PRODUCTION RUN (1 ns at 300K)
+#===============================================
+
+print "Starting production run (1 ns at 300K)..."
+
+# Continue from equilibration temperature (300K)
+# No velocity reinitialization to maintain continuity
+fix prod_nvt all nvt temp 300 300 $(100*dt)
+
+# Output settings for production
+thermo 100
+thermo_style custom step temp press pe ke etotal vol
+
+dump prod_dump all custom 100 production.dump id type x y z vx vy vz fx fy fz
+restart 10000 production.restart
+
+# Run production: 1.1 ns = 1,100,000 timesteps
+run 1100000
+
+print "Production run completed."

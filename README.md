@@ -12,7 +12,7 @@
 - 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
 ---
 
-This is the Supporting Code for the manuscript “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”. [DOI: TBA]
+This is the supporting code for the manuscript “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”. [DOI: To be announced]
 
 The repository contains the following sections:
 

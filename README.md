@@ -36,10 +36,10 @@ The repository contains the following sections:
 
 If you use this data, please cite the following: \
 \
-**Paper:** Zakary, O.; Lantto P. Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids. *In preparation* **2025**. [DOI: TBA]
+**Paper:** Zakary, O.; Lantto P. Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids. *In preparation* **2025**. [DOI: To be announced]
 
 \
-**Dataset:** Zakary, O.; Lantto P. (**2025**). Supporting Data for “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”. *figshare. Dataset.* [DOI: TBA]
+**Dataset:** Zakary, O.; Lantto P. (**2025**). Supporting Data for “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”. *figshare. Dataset.* [DOI: To be announced]
 
 ---
 

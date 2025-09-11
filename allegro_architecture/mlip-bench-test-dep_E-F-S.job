@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#SBATCH --job-name=mlip
+#SBATCH --partition=gputest
+#SBATCH --account=plantto # !!it is mandatory to specify the account (project) as precised in the CSC rules!!
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --time=0-00:15:00
+#SBATCH --gres=gpu:a100:1,nvme:10
+#SBATCH --output=output_mlip_bench-test-dep_allegro_E-F-S_%j.txt
+#SBATCH --error=errors_mlip_bench-test-dep_allegro_E-F-S_%j.txt
+
+# Load necessary modules (!!checkh the availability of the following modules when using another machine!!)
+# If certian modules are not available on your machine, contact the corrsponding admin(s) to install them.
+module load pytorch/1.13 #necessary for 'nequip-train' and 'mir-allegro'
+
+# using a virtual environment (!!when using v-env all the packages and dependencies should be installed in that v-env!!) 
+# python -m venv myenv # should be used if there is no existent v-env
+source /projappl/plantto/zakaryou/MLAMD/packages/allegro-nequip_test-install-venv/bin/activate
+
+# Using the 'ulimit' command to control the user-level resource limits for processes. the option '-s unlimited' specifies that 
+# there should be no limit on the stack size for the processes launched by the job. The stack size is the amount of memory 
+# allocated for the call stack of a program.
+ulimit -s unlimited
+
+# Deciding on hyperparameters : When provided with a YAML configuration file exactly like the one provided to nequip-train, 
+# it constructs a randomly initialized model with the given hyperparameters, loads the specified dataset, and runs a quick 
+# benchmark
+srun nequip-benchmark 2xe_cc3_tba-config_new_vf.yaml
+
+# Evaluate test error (recommended): Before running an MD simulation with the now trained Allegro potential, we'd like to know 
+# how well the model is doing on a hold-out test set. We run the nequip-evaluate command to compute the test error on all data 
+# that we didn't use for training or validation.
+
+# Build the nequip-evaluate command
+srun nequip-evaluate --train-dir ./MLP-2Xe_CC3_TBA_new_output/2Xe_CC3_TBA_new_mlp_vf --batch-size 1 --output ./dataset_2xe_cc3_tba_out_prediction.xyz
+
+# Deploy the trained Allegro potential model : We now convert the model to a potential file. This makes it independent of the 
+# Allegro code and we can use it any downstream application, such as LAMMPS. Note that you will now be able to call this 
+# standalone file without having the Allegro or nequip Python package installed.
+# Build the nequip-deploy command with the desired filename
+srun nequip-deploy build --train-dir ./MLP-2Xe_CC3_TBA_new_output/2Xe_CC3_TBA_new_mlp_vf ./MLP-2Xe_CC3_TBA_new_output/2Xe_CC3_TBA_new_mlp_vf/2xe_cc3_tba_new-deployed_vf.pth
+
+exit 0

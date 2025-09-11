@@ -23,7 +23,7 @@ This directory contains the configuration files and job scripts for training, va
 
 ## Model Architecture Configuration
 
-### Network Architecture ([`2xe_cc3tba-config_new_vf.yaml`](./2xe_cc3tba-config_new_vf.yaml))
+### Network Architecture ([`2xe_cc3_tba-config_new_vf.yaml`](./2xe_cc3_tba-config_new_vf.yaml))
 
 #### Core Allegro Parameters
 ```yaml

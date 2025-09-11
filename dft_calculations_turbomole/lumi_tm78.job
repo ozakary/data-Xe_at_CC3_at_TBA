@@ -1,0 +1,32 @@
+#!/bin/bash -l
+#SBATCH --job-name=T260K    # Job name
+#SBATCH --output=output.o%j # Name of stdout output file
+#SBATCH --error=output.e%j  # Name of stderr error file
+#SBATCH --partition=small            # Partition (queue) name
+#SBATCH --ntasks=1                    # Total number of nodes (1 for SMP, >= 1 for MPI) 
+#SBATCH --cpus-per-task=64     # Number of cores in SMP calculation (threads)
+#SBATCH --time=04:00:00              # Run time (d-hh:mm:ss), max 3 days
+#SBATCH --account=project_462000738  # Project for billing
+#SBATCH --mem-per-cpu=1750
+
+export TURBODIR=/projappl/project_462000738/TURBOMOLE_7.8/TURBOMOLE
+source $TURBODIR/Config_turbo_env
+export PARA_ARCH=SMP         # use either MPI or SMP
+export MPI_USESRUN=1
+export SLURM_CPU_BIND=none
+# create scratchdir directly under /scratch/<project>/ to avoid too long path
+export TURBOTMPDIR=`echo $PWD |cut -d'/' -f1-3`"/TM_TMPDIR/"$SLURM_JOB_ID
+mkdir -p $TURBOTMPDIR
+# export PARNODES=$SLURM_NTASKS  # for MPI
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export PARNODES=$SLURM_CPUS_PER_TASK
+export PATH=$TURBODIR/bin/`$TURBODIR/scripts/sysname`:$PATH
+define < define_input
+ridft > ridft.out
+mpshift > mpshift.out
+#  escf > escf.out
+cleanup() {
+ echo "Removing $TURBOTMPDIR*" 
+ rm -rf "$TURBOTMPDIR"*
+}
+trap cleanup EXIT

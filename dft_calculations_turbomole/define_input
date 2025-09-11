@@ -1,0 +1,55 @@
+
+
+a coord
+*
+no
+ecprm all
+b all x2c-SVPall
+b "xe" x2c-TZVPall-s
+*
+eht
+
+
+
+scf
+damp
+1.000
+
+
+iter
+300
+x2c
+y
+rlocal
+y
+finnuc
+y
+
+dft
+on
+func pbe
+grid 4a
+*
+dsp
+d4
+*
+ri
+on
+m 1000
+jbas
+*
+marij
+
+nmr
+nucsel "xe"
+shiftconv 5
+csmaxiter 70
+
+mp2
+memory 3500
+*
+*
+
+
+
+

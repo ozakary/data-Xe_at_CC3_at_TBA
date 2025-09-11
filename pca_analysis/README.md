@@ -8,7 +8,7 @@
 - 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
 ---
 
-This directory contains code for performing Principal Component Analysis (PCA) on the DFT-2 dataset using Smooth Overlap of Atomic Positions (SOAP) descriptors.
+This directory contains the [code](./pca_analysis.py) for performing Principal Component Analysis (PCA) on the DFT-2 dataset using Smooth Overlap of Atomic Positions (SOAP) descriptors.
 
 ### SOAP Descriptors
 SOAP (Smooth Overlap of Atomic Positions) descriptors encode local atomic environments in a rotation-invariant manner. They provide a mathematical representation of atomic neighborhoods that can be compared quantitatively across different configurations.

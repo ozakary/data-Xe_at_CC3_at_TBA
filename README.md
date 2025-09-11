@@ -22,7 +22,7 @@ The repository contains the following sections:
    iii. Dataset formatting for *Allegro* architecture. ([directory](./dft_dataset/))  
 3. Code for principal component analysis (PCA). ([directory](./pca_analysis/))
 4. Code for t-distributed stochastic neighbor embedding (t-SNE). ([directory](./t-sne_analysis/))  
-5. Code for training, validation, and testing of *Allegro* architecture. ([directory](./allegro_achitecture/))  
+5. Code for training, validation, and testing of *Allegro* architecture. ([directory](./allegro_architecture/))  
 6. Code for machine learning MD simulations. ([directory](./mlmd_simulations/))  
 7. Code for dataset preparation for the NMR-ML model:  
    i. Configuration generation using SEMD simulations. ([directory](./dftb-md/))  

@@ -23,7 +23,7 @@ This directory contains the configuration files and job scripts for training, va
 
 ## Model Architecture Configuration
 
-### Network Architecture (`2xe_cc3tba-config_new_vf.yaml`)
+### Network Architecture ([`2xe_cc3tba-config_new_vf.yaml`](./2xe_cc3tba-config_new_vf.yaml))
 
 #### Core Allegro Parameters
 ```yaml
@@ -117,7 +117,7 @@ early_stopping_patiences:
 
 ## Job Scripts and Execution
 
-### Training Job (`mlip-train_E-F-S.job`)
+### Training Job ([`mlip-train_E-F-S.job`](./mlip-train_E-F-S.job))
 
 #### SLURM Configuration
 ```bash
@@ -136,7 +136,7 @@ early_stopping_patiences:
 srun nequip-train 2xe_cc3_tba-config_new_vf.yaml
 ```
 
-### Benchmarking and Testing Job (`mlip-bench-test-dep_E-F-S.job`)
+### Benchmarking and Testing Job ([`mlip-bench-test-dep_E-F-S.job`](./mlip-bench-test-dep_E-F-S.job))
 
 #### Performance Benchmarking
 ```bash

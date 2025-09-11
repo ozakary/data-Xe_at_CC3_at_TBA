@@ -20,15 +20,17 @@ The repository contains the following sections:
    i. Configuration generation using semi-empirical MD (SEMD) simulations. ([directory](./dftb-md/))  
    ii. Single-point DFT calculations of the generated SEMD configurations. ([directory](./dft_calculations_vasp/))  
    iii. Dataset formatting for *Allegro* architecture. ([directory](./dft_dataset/))  
-3. Code for training, validation, and testing of *Allegro* architecture. ([directory](./allegro_achitecture/))  
-4. Code for machine learning MD simulations. ([directory](./mlmd_simulations/))  
-5. Code for dataset preparation for the NMR-ML model:  
+3. Code for principal component analysis (PCA). ([directory](./pca_analysis/))
+4. Code for t-distributed stochastic neighbor embedding (t-SNE). ([directory](./t-sne_analysis/))  
+5. Code for training, validation, and testing of *Allegro* architecture. ([directory](./allegro_achitecture/))  
+6. Code for machine learning MD simulations. ([directory](./mlmd_simulations/))  
+7. Code for dataset preparation for the NMR-ML model:  
    i. Configuration generation using SEMD simulations. ([directory](./dftb-md/))  
    ii. DFT calculations of <sup>129</sup>Xe NMR magnetic shielding tensor, ***σ***. ([directory](./dft_calculations_turbomole/))  
    iii. Dataset formatting for *MatTen* architecture. ([directory](./nmr-ml_dataset/))  
-6. Code for training, validation, and testing of *MatTen*. ([directory](./matten_architecture/))  
-7. Prediction of <sup>129</sup>Xe ***σ*** from the pre-trained NMR-ML model. ([directory](./nmr-ml_prediction/))  
-8. Python scripts and raw numerical data for all figures in the main manuscript and the supporting information. ([directory](./figures/))  
+8. Code for training, validation, and testing of *MatTen*. ([directory](./matten_architecture/))  
+9. Prediction of <sup>129</sup>Xe ***σ*** from the pre-trained NMR-ML model. ([directory](./nmr-ml_prediction/))  
+10. Python scripts and raw numerical data for all figures in the main manuscript and the supporting information. ([directory](./figures/))  
 
 ## Citations
 

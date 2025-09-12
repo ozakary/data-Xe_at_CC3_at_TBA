@@ -51,7 +51,7 @@ To reproduce the figures and analyze the data, you will need the following softw
 | [Figure S10](./figure_s10.png) | [Script](./code_compare_v3.py) | [Data Zenodo](./) | [Readme](./figure_s10_readme.txt) | [Description](./figure_s10_description.txt) |
 | [Figure S11](./figure_s11.png) | [Script](./code_compare_v3.py) | [Data Zenodo](./) | [Readme](./figure_s11_readme.txt) | [Description](./figure_s11_description.txt) |
 | [Figure S12](./figure_s12.png) | `N/A` | `N/A` | [Readme](./figure_s12_readme.txt) | [Description](./figure_s12_description.txt) |
-| [Figure S13](./figure_s13.png) | [Script](./code_plot_sigma_iso.py) | [Data Zenodo](./) | [Readme](./figure_s13_readme.txt) | [Description](./figure_s13_description.txt) |
+| [Figure S13](./figure_s13.png) | [Script](./code_plot_sigma_iso_training_progress.py) | [Data Zenodo](./) | [Readme](./figure_s13_readme.txt) | [Description](./figure_s13_description.txt) |
 | [Figure S14](./figure_s14.png) | [Script A](./code_plot_sigma_xx.py), [Script B](./code_plot_sigma_yy.py), [Script C](./code_plot_sigma_zz.py), [Script D](./code_plot_sigma_xy.py), [Script E](./code_plot_sigma_xz.py), [Script F](./code_plot_sigma_yz.py) | [Data Zenodo](./) | [Readme](./figure_s14_readme.txt) | [Description](./figure_s14_description.txt) |
 | [Figure S15](./figure_s15.png) | `N/A` | `N/A` | [Readme](./figure_s15_readme.txt) | [Description](./figure_s15_description.txt) |
 | [Figure S16](./figure_s16.png) | [Script](./code_plot_statistics_v2.py) | [Data Zenodo](./) | [Readme](./figure_s16_readme.txt) | [Description](./figure_s16_description.txt) |

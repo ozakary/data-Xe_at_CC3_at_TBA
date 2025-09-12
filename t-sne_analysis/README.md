@@ -19,7 +19,7 @@ The analysis compares two different ways to encode atomic environments:
 ## Input Data
 
 ### Dataset
-- **File**: `dataset_2xe_cc3_tba.xyz` (to be found in the [Zenodo](./) repository)
+- **File**: `dataset_2xe_cc3_tba.xyz` (to be found in the [Zenodo](https://zenodo.org/records/17105321?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI1ZjkyMGVkLTU0MDktNDI2ZC04ZTkxLTNmODU2ZTc1OGMzNCIsImRhdGEiOnt9LCJyYW5kb20iOiI0NThhZTk0ZjI0MjgwYzgzMTYxZTNiOWJjMDU5YWY5ZSJ9._FOA8Roxy1PJr4DsdrR6_inETDRe-Qn8NIRbg6p_YRDgWvG5x_RbhH74y0ALEEgMjwKMQ1BFvfkgi_BxK2mb0g) repository as `1-dataset_2xe_cc3_tba.xyz.tar.bz2`)
 - **System**: Xe@CC3@TBA
 - **Sampling**: Up to 30,000 neighborhoods (configurable)
 

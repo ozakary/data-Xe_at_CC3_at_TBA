@@ -77,8 +77,6 @@ The calculations generate standard VASP output files in each `OUT-{iter}` direct
 - `vasprun.xml`: Complete calculation data in XML format
 - `CONTCAR`: Final atomic positions (unchanged for single-point)
 
-**Note**: Output files are available in the [Zenodo repository](https://github.com/ozakary/data-Xe_at_CC3_at_TBA).
-
 ## Requirements
 
 - **Supercomputer**: Mahti supercomputer at CSC - IT Center for Science (Finland), more details: [www.csc.fi](https://www.csc.fi)

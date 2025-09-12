@@ -31,7 +31,7 @@ This directory contains the [code](./pca_analysis.py) for performing Principal C
 ## Input Data
 
 ### Dataset File
-- **File**: `dataset_2xe_cc3_tba.xyz` (to be found in the [Zenodo](./) repository)
+- **File**: `dataset_2xe_cc3_tba.xyz` (to be found in the [Zenodo](./) repository as `1-dataset_2xe_cc3_tba.xyz.tar.bz2`)
 - **Format**: Extended XYZ with atomic coordinates and metadata
 - **System**: Xe@CC3@TBA
 

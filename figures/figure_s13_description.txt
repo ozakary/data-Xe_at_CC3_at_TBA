@@ -1,0 +1,1 @@
+Training and validation progress from \textit{MatTen} for Xe@CC3@TBA. The figure illustrates the evolution of the validation MAE for $^{129}$Xe $\sigma$ ($\sigma_{\text{MAE}}^{\text{V}}$, ppm), and the loss function for the training ($\sigma_{\text{Loss}}^{\text{T}}$, ppm) and validation ($\sigma_{\text{Loss}}^{\text{V}}$, ppm).

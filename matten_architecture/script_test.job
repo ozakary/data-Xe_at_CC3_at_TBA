@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#--------------------------------------------------------------------------------------------------------------------------------
+#SBATCH --job-name=test
+#SBATCH --partition=gpu
+#SBATCH --account=plantto # !!it is mandatory to specify the account (project) as precised in the CSC rules!!
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem-per-cpu=8GB
+#SBATCH --time=0-40:00:00
+#SBATCH --gres=gpu:v100:1
+#SBATCH --output=nmr-ml_matten-output_%j.txt
+#SBATCH --error=nmr-ml_matten-errors_%j.txt
+#--------------------------------------------------------------------------------------------------------------------------------
+#================================< Instructions-Section for Training Full Magnetic Shielding Tensor using SchNet Model >============================================
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+module load python-data/3.10
+
+source /scratch/plantto/zakaryou/packages/matten_installation/matten_env/bin/activate 
+
+# Set unlimited stack size
+ulimit -s unlimited
+
+python3 train_atomic_tensor.py 

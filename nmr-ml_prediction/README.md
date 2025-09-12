@@ -25,7 +25,7 @@ This directory contains the scripts and workflow for predicting <sup>129</sup>Xe
 
 ## Input Data Format
 
-### XYZ Structure Files (`dataset_test_structures.xyz` to be found in the [Zenodo](./) repository)
+### XYZ Structure Files (`dataset_test_structures.xyz` to be found in the [Zenodo]([./](https://zenodo.org/records/17105321?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI1ZjkyMGVkLTU0MDktNDI2ZC04ZTkxLTNmODU2ZTc1OGMzNCIsImRhdGEiOnt9LCJyYW5kb20iOiI0NThhZTk0ZjI0MjgwYzgzMTYxZTNiOWJjMDU5YWY5ZSJ9._FOA8Roxy1PJr4DsdrR6_inETDRe-Qn8NIRbg6p_YRDgWvG5x_RbhH74y0ALEEgMjwKMQ1BFvfkgi_BxK2mb0g)) repository in `5-nmr-ml_prediction.tar.bz2`)
 The input file contains multiple molecular structures in extended XYZ format:
 
 ```
@@ -113,7 +113,7 @@ python3 predict_atomic_tensor.py dataset_test_structures.xyz output_prediction.c
 
 ## Output Format
 
-### Prediction Results (`output_prediction.csv` to be found in the [Zenodo](./) repository)
+### Prediction Results (`output_prediction.csv` to be found in the [Zenodo](https://zenodo.org/records/17105321?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI1ZjkyMGVkLTU0MDktNDI2ZC04ZTkxLTNmODU2ZTc1OGMzNCIsImRhdGEiOnt9LCJyYW5kb20iOiI0NThhZTk0ZjI0MjgwYzgzMTYxZTNiOWJjMDU5YWY5ZSJ9._FOA8Roxy1PJr4DsdrR6_inETDRe-Qn8NIRbg6p_YRDgWvG5x_RbhH74y0ALEEgMjwKMQ1BFvfkgi_BxK2mb0g) repository in `4-last.ckpt.tar.bz2`)
 The output CSV contains comprehensive NMR data for each Xe atom:
 
 | Column | Description | Units | Example |

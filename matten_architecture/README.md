@@ -192,7 +192,7 @@ logger:
 - **nmr-ml_matten-errors_*.txt**: Error messages and warnings
 
 ### NMR-ML Model
-- **Best checkpoint**: `last.ckpt` (to be found in [Zenodo](https://zenodo.org/records/17105321?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI1ZjkyMGVkLTU0MDktNDI2ZC04ZTkxLTNmODU2ZTc1OGMzNCIsImRhdGEiOnt9LCJyYW5kb20iOiI0NThhZTk0ZjI0MjgwYzgzMTYxZTNiOWJjMDU5YWY5ZSJ9._FOA8Roxy1PJr4DsdrR6_inETDRe-Qn8NIRbg6p_YRDgWvG5x_RbhH74y0ALEEgMjwKMQ1BFvfkgi_BxK2mb0g) repository as `4-last.ckpt.tar.bz2`)
+- **Best checkpoint**: `last.ckpt` (to be found in [Zenodo](https://doi.org/10.5281/zenodo.17105321) repository as `4-last.ckpt.tar.bz2`)
 
 ## Usage Instructions
 

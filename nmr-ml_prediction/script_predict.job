@@ -1,0 +1,25 @@
+#!/bin/bash -l
+
+#--------------------------------------------------------------------------------------------------------------------------------
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --time=08:00:00
+#SBATCH --account=project_462000738
+#SBATCH --output=nmr-ml_matten-output_%j.txt
+#SBATCH --error=nmr-ml_matten-errors_%j.txt
+#SBATCH --get-user-env
+#SBATCH --exclusive
+#SBATCH --hint=nomultithread
+#--------------------------------------------------------------------------------------------------------------------------------
+#================================< Instructions-Section for Training Full Magnetic Shielding Tensor using SchNet Model >============================================
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+module load cray-python
+
+source /scratch/project_462000738/zakaryou/packages/matten_installation/matten_env/bin/activate
+
+# Set unlimited stack size
+ulimit -s unlimited
+
+python3 predict_atomic_tensor.py dataset_test_structures.xyz output_prediction.csv

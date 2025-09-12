@@ -5,7 +5,7 @@
 - 📧 Email: [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
 - 🔗 ORCID: [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
 - 🌐 Website: [Personal Webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)  
-- 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
+- 📁 Portfolio: [Academic Portfolio](https://ozakary.github.io/)
 ---
 
 This directory contains the input files and job scripts for calculating <sup>129</sup>Xe NMR magnetic shielding tensors using TURBOMOLE at three different levels of theory.
@@ -204,7 +204,7 @@ python extract_nmr_data.py ./FINISHED/cluster_*/mpshift.out
 ## Computational Requirements
 
 ### Hardware Specifications
-- **HPC**: [LUMI](https://docs.lumi-supercomputer.eu/)
+- **Supercomputer**: [LUMI](https://docs.lumi-supercomputer.eu/)
 - **CPU**: 64 cores per calculation
 - **Memory**: 112 GB per job (1.75 GB × 64 cores)
 - **Storage**: ~100 MB per calculation

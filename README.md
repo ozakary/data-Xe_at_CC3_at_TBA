@@ -1,4 +1,4 @@
-# Supporting Data for “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”
+# Supporting Code for “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”
 
 ## Graphical Abstract
 

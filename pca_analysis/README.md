@@ -107,8 +107,6 @@ pip install dscribe ase scikit-learn matplotlib tqdm psutil
 
 ### System Requirements
 - **Python 3.7+**
-- **RAM**: Minimum 8 GB, recommended 16+ GB for large datasets
-- **Storage**: Additional space for cache files (typically 100-500 MB)
 
 ---
 

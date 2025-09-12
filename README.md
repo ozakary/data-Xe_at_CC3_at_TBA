@@ -33,14 +33,26 @@ The repository contains the following sections:
 10. Python scripts and raw numerical data for all figures in the main manuscript and the supporting information. ([directory](./figures/))  
 
 ## Citations
+If you use this data, please cite the following:
 
-If you use this data, please cite the following: \
-\
-**Paper:** Zakary, O.; Lantto P. Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids. *In preparation* **2025**. [DOI: To be announced]
+```bibtex
+@article{zakary2025equivariant,
+  title={Equivariant Neural Networks Reveal How Host--Guest Interactions Shape $^{129}$Xe NMR in Porous Liquids},
+  author={Zakary, Ouail and Lantto, Perttu},
+  journal={In preparation},
+  year={2025},
+  note={DOI: To be announced}
+}
 
-\
-**Dataset:** Zakary, O.; Lantto P. (**2025**). Supporting Data for “Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”. *figshare. Dataset.* [DOI: To be announced]
+@dataset{zakary2025dataset,
+  author = {Zakary, Ouail and Lantto, Perttu},
+  title = {Supporting Data for "Equivariant Neural Networks Reveal How Host--Guest Interactions Shape $^{129}$Xe NMR in Porous Liquids"},
+  year = {2025},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.17105321},
+  url = {https://doi.org/10.5281/zenodo.17105321}
+}
+```
 
 ---
-
 For further details, please refer to the respective folders or contact the author via the provided email.

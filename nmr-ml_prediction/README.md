@@ -78,6 +78,7 @@ def predict_nmr_tensors(structures, model_path, checkpoint_name):
 model_path = "/path/to/matten_logs/checkpoints/"
 checkpoint_name = "last.ckpt"  # or "best.ckpt"
 ```
+### The NMR-ML model file, `last.ckpt`, can be found in the [Zenodo](https://zenodo.org/records/17105321?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI1ZjkyMGVkLTU0MDktNDI2ZC04ZTkxLTNmODU2ZTc1OGMzNCIsImRhdGEiOnt9LCJyYW5kb20iOiI0NThhZTk0ZjI0MjgwYzgzMTYxZTNiOWJjMDU5YWY5ZSJ9._FOA8Roxy1PJr4DsdrR6_inETDRe-Qn8NIRbg6p_YRDgWvG5x_RbhH74y0ALEEgMjwKMQ1BFvfkgi_BxK2mb0g) repository as `4-last.ckpt.tar.bz2`
 
 ### Key Features
 - **Automatic Xe detection**: Identifies xenon atoms for prediction

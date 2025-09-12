@@ -1,0 +1,1 @@
+Evolution with respect to time of $^{129}$Xe $\delta_{\text{iso}}$ for Xe@TBA from the MLMD-4 trajectory. The raw and filtered data is plotted in gray and teal, respectively. The average $^{129}$Xe $\delta_{\text{iso}}$ ($\langle\delta_{\text{iso}}\rangle$, ppm) is given and highlighted in red.

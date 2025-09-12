@@ -2,7 +2,7 @@
 
 ## Graphical Abstract
 
-![Graphical Abstract](./blank.png)
+![Graphical Abstract](./toc_github.png)
 
 ---
 📄 Author: **Ouail Zakary**  

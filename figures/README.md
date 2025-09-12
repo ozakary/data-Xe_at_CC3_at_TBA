@@ -29,16 +29,16 @@ To reproduce the figures and analyze the data, you will need the following softw
 
 ## Table 1: Figures from the Manuscript
 
-| **Figure** | **Script** | **Dataset** | **Readme** | **Description** |
-|------------|-------------|-------------|------------|-----------------|
-| [Figure 1](./figure_1.png) | [Script A](../pca_analysis/pca_analysis.py), [Scripts B-C](../t-sne_analysis/tsne_analysis.py), [Script D-F](./code_compare_v3.py), [Script G](../pca_analysis/pca_analysis.py), [Script H-I](../t-sne_analysis/tsne_analysis.py), [Script J](./code_plot_rdf_total_with_inset.py) | [Data A (Zenodo)](./), [Data B-C Zenodo](./), [Data D-F (Zenodo)](./), [Data G (Zenodo)](./), [Data H-I (Zenodo)](./), [Data J (Zenodo)](./) | [Readme](./figure_1_readme.txt) | [Description](./figure_1_description.txt) |
-| [Figure 2](./figure_2.png) | [Script A](../pca_analysis/pca_analysis.py), [Scripts B-C](../t-sne_analysis/tsne_analysis.py), [Script D](./code_plot_sigma_iso.py) | [Data A (Zenodo)](./), [Data B-C Zenodo](./), [Data D (Zenodo)](./) | [Readme](./figure_2_readme.txt) | [Description](./figure_2_description.txt) |
-| [Figure 3](./figure_3.png) | [Script A-1](./code_displacements_advanced_COM_pbc.py), [Script A-2](./code_plot_advanced_vf.py), [Scripts C-D](./code_statistics_all_csv_outputs_multi-cage-approach.py) | [Data A (Zenodo)](./), [Data C-D Zenodo](./) | [Readme](./figure_3_readme.txt) | [Description](./figure_3_description.txt) |
+| **Figure** | **Script** | **Dataset** | **Description** |
+|--------------|-------------|-------------|-----------------|
+| [Figure 1](./figure_1.png) | [Script A](../pca_analysis/pca_analysis.py), [Scripts B-C](../t-sne_analysis/tsne_analysis.py), [Script D-F](./code_compare_v3.py), [Script G](../pca_analysis/pca_analysis.py), [Script H-I](../t-sne_analysis/tsne_analysis.py), [Script J](./code_plot_rdf_total_with_inset.py) | [Data A (Zenodo)](./), [Data B-C Zenodo](./), [Data D-F (Zenodo)](./), [Data G (Zenodo)](./), [Data H-I (Zenodo)](./), [Data J (Zenodo)](./) | [Description](./figure_1_description.txt) |
+| [Figure 2](./figure_2.png) | [Script A](../pca_analysis/pca_analysis.py), [Scripts B-C](../t-sne_analysis/tsne_analysis.py), [Script D](./code_plot_sigma_iso.py) | [Data A (Zenodo)](./), [Data B-C Zenodo](./), [Data D (Zenodo)](./) | [Description](./figure_2_description.txt) |
+| [Figure 3](./figure_3.png) | [Script A-1](./code_displacements_advanced_COM_pbc.py), [Script A-2](./code_plot_advanced_vf.py), [Scripts C-D](./code_statistics_all_csv_outputs_multi-cage-approach.py) | [Data A (Zenodo)](./), [Data C-D Zenodo](./) | [Description](./figure_3_description.txt) |
 
 ## Table 2: Figures from the Supporting Information
 
 | **Figure** | **Script** | **Dataset** | **Readme** | **Description** |
-|------------|------------|-------------|------------|-----------------|
+|--------------|------------|-------------|------------|-----------------|
 | [Figure S1](./supporting_information/figure_S1.pdf) | [Script A](./supporting_information/figure_S1-a_script.py), [Script B](./supporting_information/figure_S1-b_script.py), [Script C](./supporting_information/figure_S1-c_script.py), [Script D](./supporting_information/figure_S1-d_script.py) | [Data A](./supporting_information/figure_S1-a_data.txt), [Data B](./supporting_information/figure_S1-b_data.txt), [Data C](./supporting_information/figure_S1-c_data.txt), [Data D](./supporting_information/figure_S1-d_data.txt) | [Readme](./supporting_information/figure_S1_readme.txt) | [Description](./supporting_information/figure_S1_description.txt) |
 | [Figure S2](./supporting_information/figure_S2.pdf) | [Script](./supporting_information/figure_S2_script.py) | [Data A](./supporting_information/figure_S2_data.asc) | [Readme](./supporting_information/figure_S2_readme.txt) | [Description](./supporting_information/figure_S2_description.txt) |
 | [Figure S3](./supporting_information/figure_S3.pdf) | [Script](./supporting_information/figure_S3_script.py) | [Data A](./supporting_information/figure_S3_data.txt) | [Readme](./supporting_information/figure_S3_readme.txt) | [Description](./supporting_information/figure_S3_description.txt) |

@@ -62,14 +62,10 @@ The job script processes configurations in batches with increment of 60:
 - Total batches: 230 configurations
 
 ## Input Files
-
-### Required Files (provided)
 - [`INCAR`](./INCAR): DFT calculation parameters
 - [`KPOINTS`](./KPOINTS): k-point sampling specification
 - [`POTCAR`](./POTCAR): Pseudopotential data for all elements
 - [`POSCAR`](./POSCAR): Atomic coordinates for each configuration
-
-### Generated Files
 - [`all_PBE_DFT.job`](./all_PBE_DFT.job): SLURM batch job script
 - Individual [`POSCAR`](./POSCAR) files for each snapshot
 

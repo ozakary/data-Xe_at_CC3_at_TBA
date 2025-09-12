@@ -110,8 +110,6 @@ import re
 
 ### System Requirements
 - **Python 3.x** with NumPy
-- **VASP output files** (OUTCAR, POSCAR)
-- **Sufficient disk space** for .xyz files
 
 ---
 

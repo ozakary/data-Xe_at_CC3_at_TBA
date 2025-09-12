@@ -39,7 +39,7 @@ To reproduce the figures and analyze the data, you will need the following softw
 
 | **Figure** | **Script** | **Dataset** | **Readme** | **Description** |
 |--------------|-------------|-------------|-----------------|-----------------|
-| [Figure S1](./figure_s1.png) | `N/A` | `N/A` | [Readme](./figure_S1_readme.txt) | [Description](./figure_s1_description.txt) |
+| [Figure S1](./figure_s1.png) | `N/A` | `N/A` | [Readme](./figure_s1_readme.txt) | [Description](./figure_s1_description.txt) |
 | [Figure S2](./figure_s2.png) | [Script A](./code_plot_energy.py), [Script B](./code_plot_force.py), [Script C](./code_plot_stress.py) | [Data A Zenodo](./), [Data B Zenodo](./), [Data C Zenodo](./) | [Readme](./figure_s2_readme.txt) | [Description](./figure_s2_description.txt) |
 | [Figure S3](./figure_s3.png) | [Script](./code_compare_v3.py) | [Data Zenodo](./) | [Readme](./figure_s3_readme.txt) | [Description](./figure_s3_description.txt) |
 | [Figure S4](./figure_s4.png) | [Script](./code_compare_v3.py) | [Data Zenodo](./) | [Readme](./figure_s4_readme.txt) | [Description](./figure_s4_description.txt) |

@@ -5,7 +5,7 @@
 - 📧 Email: [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
 - 🔗 ORCID: [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
 - 🌐 Website: [Personal Webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)  
-- 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
+- 📁 Portfolio: [Academic Portfolio](https://ozakary.github.io/)
 ---
 
 This directory contains the [code](./tsne_analysis.py) for performing t-SNE analysis on individual atomic neighborhoods from the DFT-2 dataset.

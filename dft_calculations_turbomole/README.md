@@ -14,17 +14,17 @@ This directory contains the input files and job scripts for calculating <sup>129
 
 ### 1. BHandHLYP/SVP
 - **Functional**: BHandHLYP
-- **Basis set**: SVP for other atoms and TZVP for Xe
+- **Basis set**: x2c-SVPall for other atoms and x2c-TZVPall-s for Xe
 - **Directory**: `./BHandHLYP_SVP/`
 
 ### 2. PBE/SVP  
 - **Functional**: PBE
-- **Basis set**: SVP for other atoms and TZVP for Xe
+- **Basis set**: x2c-SVPall for other atoms and x2c-TZVP-s for Xe
 - **Directory**: `./PBE_SVP/`
 
 ### 3. PBE/TZVP
 - **Functional**: PBE
-- **Basis set**: TZVP
+- **Basis set**: x2c-TZVPall for other atoms and x2c-TZVP-s for Xe
 - **Directory**: `./PBE_TZVP/`
 
 ## TURBOMOLE Configuration

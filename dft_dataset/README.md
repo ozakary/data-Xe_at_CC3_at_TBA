@@ -23,8 +23,8 @@ From OUTCAR files:
 - **Atomic coordinates** (Cartesian, Å)
 - **Atomic forces** (eV/Å)
 - **Total energy** (eV)
-- **Stress tensor** (eV/Å<sup>3<sup>)
-- **Unit cell volume** (Å³)
+- **Stress tensor** (eV/Å<sup>3</sup>)
+- **Unit cell volume** (Å<sup>3</sup>)
 
 From POSCAR files:
 - **Atomic species** (element symbols)

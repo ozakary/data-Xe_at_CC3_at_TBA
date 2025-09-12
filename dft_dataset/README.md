@@ -83,22 +83,6 @@ Each subsequent line contains:
 - Renumbers `original_dataset_index` values
 - Creates `ML_total_modified` with sequential indexing starting from 197
 
-### Data Processing Pipeline
-
-1. **Iteration over configurations** (0 to 13740, increment 60)
-2. **File path construction** for OUTCAR and POSCAR
-3. **Data extraction**:
-   - Coordinates and forces from OUTCAR
-   - Lattice parameters from POSCAR
-   - Total energy from "TOTEN" line
-   - Stress tensor from "Total" line
-   - Cell volume for stress conversion
-4. **Unit conversions**:
-   - Stress: kB → GPa (divided by negative cell volume)
-   - Forces: Already in eV/Å
-5. **File writing** in Allegro format
-6. **Concatenation** into single trajectory file
-
 ## Usage
 
 ### Running the Conversion Script

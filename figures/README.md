@@ -27,9 +27,9 @@ To reproduce the figures and analyze the data, you will need the following softw
 
 | **Figure** | **Script** | **Dataset** | **Readme** | **Description** |
 |------------|-------------|-------------|------------|-----------------|
-| [Figure 1](./manuscript/figure_1.png) | [Script A](./manuscript/figure_7-a_script.py), [Script B](./manuscript/figure_7-b_script.py), [Script C](./manuscript/figure_7-c_script.py), [Script D](./manuscript/figure_7-d_script.py), [Script E](./manuscript/figure_7-e_script.py), [Script F](./manuscript/figure_7-f_script.py) | [Data D](./manuscript/figure_7-d_data.txt), [Data E](./manuscript/figure_7-e_data.txt), [Data F](./manuscript/figure_7-f_data.txt) | [Readme](./manuscript/figure_7_readme.txt) | [Description](./manuscript/figure_7_description.txt) |
-| [Figure 2](./manuscript/figure_2.png) | [Script A](./manuscript/figure_8-a_script.py), [Script B](./manuscript/figure_8-b_script.py) | [Data A](./manuscript/figure_8-a_data.txt), [Data B](./manuscript/figure_8-b_data.txt) | [Readme](./manuscript/figure_8_readme.txt) | [Description](./manuscript/figure_8_description.txt) |
-| [Figure 3](./manuscript/figure_3.png) | [Script A](./manuscript/figure_9-a_script.py), [Script B](./manuscript/figure_9-b_script.py) | [Data A](./manuscript/figure_9-a_data-1.asc), [Data B](./manuscript/figure_9-b_data-1.asc) | [Readme](./manuscript/figure_9_readme.txt) | [Description](./manuscript/figure_9_description.txt) |
+| [Figure 1](./figure_1.png) | [Script A](../pca_analysis/pca_analysis.py), [Scripts B-C](../t-sne_analysis/tsne_analysis.py), [Script D-F](./figure_7-c_script.py), [Script G](./figure_7-d_script.py), [Script H-I](./figure_7-e_script.py), [Script J](./figure_7-f_script.py) | [Data A (Zenodo)](./), [Data B-C Zenodo](./), [Data D-F (Zenodo)](./), [Data G (Zenodo)](./), [Data H-I (Zenodo)](./), [Data J (Zenodo)](./) | [Readme](./figure_1_readme.txt) | [Description](./figure_1_description.txt) |
+| [Figure 2](./figure_2.png) | [Script A](../pca_analysis/pca_analysis.py), [Scripts B-C](../t-sne_analysis/tsne_analysis.py), [Script D](./figure_7-c_script.py) | [Data A (Zenodo)](./), [Data B-C Zenodo](./), [Data D (Zenodo)](./) | [Readme](./figure_2_readme.txt) | [Description](./figure_2_description.txt) |
+| [Figure 3](./figure_3.png) | [Script A](./figure_7-a_script.py), [Scripts C-D](./figure_7-b_script.py) | [Data A (Zenodo)](./), [Data C-D Zenodo](./) | [Readme](./figure_3_readme.txt) | [Description](./figure_3_description.txt) |
 
 ## Table 2: Figures from the Supporting Information
 

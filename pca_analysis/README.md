@@ -10,15 +10,6 @@
 
 This directory contains the [code](./pca_analysis.py) for performing Principal Component Analysis (PCA) on the DFT-2 dataset using Smooth Overlap of Atomic Positions (SOAP) descriptors.
 
-### SOAP Descriptors
-SOAP (Smooth Overlap of Atomic Positions) descriptors encode local atomic environments in a rotation-invariant manner. They provide a mathematical representation of atomic neighborhoods that can be compared quantitatively across different configurations.
-
-### PCA Application
-Principal Component Analysis reduces the high-dimensional SOAP feature space to 2D for visualization, revealing:
-- Dominant structural variations in the dataset
-- Clustering patterns indicating preferred configurations
-- Outliers that may represent rare but important structures
-
 ## Code Features
 
 ### Memory Management

@@ -150,13 +150,13 @@ pair_coeff * * 2xe_cc3_tba_new-deployed_vf.pth O C H F Xe N
 ## Output Files
 
 ### Trajectory Files
-- **equilibration.dump**: Equilibration phase trajectory (1,000 frames)
-- **production.dump**: Production run trajectory (11,000 frames)
+- **equilibration.dump**: Equilibration phase trajectory (1 000 frames)
+- **production.dump**: Production run trajectory (11 000 frames)
 - **Format**: LAMMPS custom dump with positions, velocities, and forces
 
 ### Restart Files
-- **equil.restart**: Equilibration checkpoints (every 10,000 steps)
-- **production.restart**: Production checkpoints (every 10,000 steps)
+- **equil.restart**: Equilibration checkpoints (every 10 000 steps)
+- **production.restart**: Production checkpoints (every 10 000 steps)
 
 ### Log Files
 - **test_lammps-gpu_*.out**: SLURM stdout with thermodynamic data
@@ -189,7 +189,7 @@ tail -f test_lammps-gpu_*.out
 ## Requirements
 
 ### Computational Resources
-- **HPC System**: LUMI or equivalent GPU supercomputer
+- **HPC System**: [LUMI](https://docs.lumi-supercomputer.eu/) or equivalent GPU supercomputer
 - **GPUs**: 8× AMD MI250X or NVIDIA A100 equivalent
 - **Memory**: 64 GB system RAM, 16 GB GPU memory per rank
 - **Storage**: 100 GB for trajectory files

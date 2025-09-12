@@ -5,7 +5,7 @@
 - 📧 Email: [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
 - 🔗 ORCID: [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
 - 🌐 Website: [Personal Webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)  
-- 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
+- 📁 Portfolio: [Academic Portfolio](https://ozakary.github.io/)
 ---
 
 This directory contains the input files and job scripts for performing the fifth round of machine learning molecular dynamics simulations (MLMD-5) using MLIP-2 for Xe@CC3@TBA.
@@ -17,9 +17,9 @@ This directory contains the input files and job scripts for performing the fifth
 #### Stage 1: Energy Minimization
 - **Method**: Conjugate gradient minimization
 - **Convergence criteria**: 
-  - Energy tolerance: 1.0×10⁻⁴
-  - Force tolerance: 1.0×10⁻⁶
-- **Maximum steps**: 10,000 iterations
+  - Energy tolerance: 1.0×10<sup>-4</sup>
+  - Force tolerance: 1.0×10<sup>-6</sup>
+- **Maximum steps**: 10 000 iterations
 
 #### Stage 2: Equilibration (100 ps)
 - **Duration**: 100 ps (100 000 timesteps)

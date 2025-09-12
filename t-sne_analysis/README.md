@@ -158,9 +158,6 @@ pip install dscribe ase scikit-learn matplotlib seaborn tqdm psutil
 
 ### System Requirements
 - **Python 3.7+**
-- **RAM**: 8-16 GB recommended (scales with neighborhood count)
-- **CPU**: Multi-core beneficial for t-SNE computation
-- **Storage**: Cache files typically 50-200 MB
 
 ---
 

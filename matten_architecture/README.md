@@ -5,7 +5,7 @@
 - 📧 Email: [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
 - 🔗 ORCID: [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
 - 🌐 Website: [Personal Webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)  
-- 📁 Portfolio: [GitHub Portfolio](https://ozakary.github.io/)
+- 📁 Portfolio: [Academic Portfolio](https://ozakary.github.io/)
 ---
 
 This directory contains the configuration files, training scripts, and outputs for training the MatTen neural network architecture for predicting <sup>129</sup>Xe NMR magnetic shielding tensors.
@@ -229,7 +229,7 @@ sbatch script_test.job
 
 ## Requirements
 
-### Computational Infrastructure
+### Computational 
 - **GPU**: NVIDIA V100 or equivalent (16+ GB VRAM)
 - **Memory**: 16+ GB system RAM
 - **Storage**: 50+ GB for datasets and checkpoints

@@ -35,6 +35,8 @@ The repository contains the following sections:
 ## Citations
 If you use this data, please cite the following:
 
+### Preprint
+
 ```bibtex
 @article{zakary2025_equivariant,
   title={Equivariant Neural Networks Reveal How Host--Guest Interactions Shape $^{129}$Xe NMR in Porous Liquids},
@@ -45,7 +47,11 @@ If you use this data, please cite the following:
   url={https://doi.org/10.26434/chemrxiv-2025-njln9},
   note={Preprint}
 }
+```
 
+### Dataset
+
+```bibtex
 @dataset{zakary2025_data_equivariant,
   author = {Zakary, Ouail and Lantto, Perttu},
   title = {Supporting Data for "Equivariant Neural Networks Reveal How Host--Guest Interactions Shape $^{129}$Xe NMR in Porous Liquids"},

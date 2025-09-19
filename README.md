@@ -35,7 +35,7 @@ The repository contains the following sections:
 ## Citations
 If you use this data, please cite the following:
 
-### Preprint
+### Preprint [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--njln9-yellow.svg)](https://doi.org/10.26434/chemrxiv-2025-njln9)
 
 ```bibtex
 @article{zakary2025_equivariant,
@@ -49,7 +49,7 @@ If you use this data, please cite the following:
 }
 ```
 
-### Dataset
+### Dataset [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17105321-blueviolet.svg)](https://doi.org/10.5281/zenodo.17105321)
 
 ```bibtex
 @dataset{zakary2025_data_equivariant,

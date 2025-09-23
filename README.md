@@ -33,7 +33,7 @@ The repository contains the following sections:
 10. Python scripts and raw numerical data for all figures in the main manuscript and the supporting information. ([directory](./figures/))  
 
 ## Citations
-If you use this data, please cite the following:
+If you use the code in this repository, please cite the following:
 
 ### Preprint [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--njln9-yellow.svg)](https://doi.org/10.26434/chemrxiv-2025-njln9)
 

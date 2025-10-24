@@ -62,5 +62,18 @@ If you use the code in this repository, please cite the following:
 }
 ```
 
+### Code [![DOI](https://img.shields.io/badge/GitHub-ozakary%2Fdata--Xe__at__CC3__at__TBA-blue.svg)](https://github.com/ozakary/data-Xe_at_CC3_at_TBA)
+```bibtex
+@misc{zakary_xe-at-cc3-tba_github_2025,
+  author = {Zakary, Ouail and Lantto, Perttu},
+  title = {Supporting Code for "Equivariant Neural Networks Reveal How Host--Guest Interactions Shape $^{129}$Xe NMR in Porous Liquids"},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/ozakary/data-Xe_at_CC3_at_TBA}},
+  url = {https://github.com/ozakary/data-Xe_at_CC3_at_TBA}
+}
+```
+
 ---
 For further details, please refer to the respective folders or contact the author via the provided email.

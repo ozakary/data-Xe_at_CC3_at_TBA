@@ -35,7 +35,7 @@ The repository contains the following sections:
 ## Citations
 If you use the code in this repository, please cite the following:
 
-### Preprint [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--njln9-yellow.svg)](https://doi.org/10.26434/chemrxiv-2025-njln9)
+### Preprint [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--njln9--v2-yellow.svg)](https://doi.org/10.26434/chemrxiv-2025-njln9-v2)
 
 ```bibtex
 @article{zakary_xe-at-cc3-tba_2025,
@@ -44,7 +44,7 @@ If you use the code in this repository, please cite the following:
   journal={ChemRxiv},
   year={2025},
   doi={10.26434/chemrxiv-2025-njln9},
-  url={https://doi.org/10.26434/chemrxiv-2025-njln9},
+  url={https://doi.org/10.26434/chemrxiv-2025-njln9-v2},
   note={Preprint}
 }
 ```

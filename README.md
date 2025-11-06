@@ -43,7 +43,7 @@ If you use the code in this repository, please cite the following:
   author={Zakary, Ouail and Lantto, Perttu},
   journal={ChemRxiv},
   year={2025},
-  doi={10.26434/chemrxiv-2025-njln9},
+  doi={10.26434/chemrxiv-2025-njln9-v2},
   url={https://doi.org/10.26434/chemrxiv-2025-njln9-v2},
   note={Preprint}
 }

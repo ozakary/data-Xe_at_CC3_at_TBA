@@ -46,8 +46,8 @@ If you use the code in this repository, please cite the following:
   pages={12095--12103}, 
   year={2025},
   publisher={American Chemical Society},
-  doi={10.1021/acs.inorgchem.5c00615},
-  url={https://doi.org/10.1021/acs.inorgchem.5c00615}
+  doi={10.1021/acs.jpclett.5c02846},
+  url={https://doi.org/10.1021/acs.jpclett.5c02846}
 }
 ```
 

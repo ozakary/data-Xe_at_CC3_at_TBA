@@ -35,17 +35,19 @@ The repository contains the following sections:
 ## Citations
 If you use the code in this repository, please cite the following:
 
-### Preprint [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--njln9--v2-yellow.svg)](https://doi.org/10.26434/chemrxiv-2025-njln9-v2)
+### Paper [![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.jpclett.5c02846-yellow.svg)](https://doi.org/10.1021/acs.jpclett.5c02846)
 
 ```bibtex
 @article{zakary_xe-at-cc3-tba_2025,
   title={Equivariant Neural Networks Reveal How Host--Guest Interactions Shape $^{129}$Xe NMR in Porous Liquids},
   author={Zakary, Ouail and Lantto, Perttu},
-  journal={ChemRxiv},
+  journal={The Journal of Physical Chemistry Letters},
+  volume={16},
+  pages={12095--12103}, 
   year={2025},
-  doi={10.26434/chemrxiv-2025-njln9-v2},
-  url={https://doi.org/10.26434/chemrxiv-2025-njln9-v2},
-  note={Preprint}
+  publisher={American Chemical Society},
+  doi={10.1021/acs.inorgchem.5c00615},
+  url={https://doi.org/10.1021/acs.inorgchem.5c00615}
 }
 ```
 

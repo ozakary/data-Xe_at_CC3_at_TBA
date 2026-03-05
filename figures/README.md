@@ -11,7 +11,7 @@
 This folder contains the figures, Python scripts, datasets, and additional metadata (README and description files) used to generate the figures in the manuscript and supporting information documents of **“Equivariant Neural Networks Reveal How Host–Guest Interactions Shape <sup>129</sup>Xe NMR in Porous Liquids”**.
 
 > [!WARNING]
-> The figures and scripts in this repository correspond to the preprint version of the manuscript:
+> The figures and scripts in this directory correspond to the preprint version 1 (v1) of the manuscript:
 > [https://doi.org/10.26434/chemrxiv-2025-njln9](https://doi.org/10.26434/chemrxiv-2025-njln9)
 >
 > Minor changes were made to the figures in the published version:
